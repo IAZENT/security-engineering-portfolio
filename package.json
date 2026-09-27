@@ -1,0 +1,12 @@
+{
+  "name": "security-engineering-portfolio-docs",
+  "private": true,
+  "scripts": {
+    "lint:md": "markdownlint-cli2 \"docs/**/*.md\" \"README.md\"",
+    "build": ".venv/bin/mkdocs build --strict",
+    "preview": "./scripts/preview.sh"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "^0.18.1"
+  }
+}

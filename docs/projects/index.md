@@ -12,4 +12,3 @@ Each project should include:
 - Security decisions
 - Limitations
 - Reproduction instructions
-

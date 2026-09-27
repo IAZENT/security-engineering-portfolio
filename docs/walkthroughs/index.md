@@ -12,4 +12,3 @@ Recommended structure:
 6. Root cause
 7. Remediation or defensive lesson
 8. Cleanup and limitations
-

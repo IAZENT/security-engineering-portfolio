@@ -14,4 +14,3 @@ Recommended structure:
 - Limitations
 - Defensive implications
 - Future work
-

@@ -15,4 +15,13 @@ jobs:
           python-version: '3.x'
       - run: pip install mkdocs-material
       - run: mkdocs build --strict
-
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run lint:md
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress './docs/**/*.md'
+          fail: true
