@@ -1,6 +1,6 @@
-# Projects
+# Security Engineering Projects
 
-Use this section for complete portfolio projects: home labs, automation, detection engineering, secure infrastructure and security tooling.
+This section is for complete portfolio projects: home labs, automation, detection engineering, secure infrastructure, and security tooling. Projects will be added when they have a reproducible build, a clear security goal, and evidence of testing.
 
 Each project should include:
 

@@ -1,10 +1,12 @@
-# Research
+# Security Research
 
-Research notes should separate facts, interpretation and open questions.
+Technical research should separate verified facts, interpretation, and open questions. Each note should make its sources and limitations visible to the reader.
+
+## Research standard
 
 Recommended structure:
 
-- Abstract
+- Abstract and research question
 - Research question
 - Scope and assumptions
 - Methodology

@@ -1,6 +1,10 @@
-# Walkthroughs
+# Practical Walkthroughs
 
-Walkthroughs explain an authorized lab, challenge or research reproduction from setup to conclusion.
+Walkthroughs explain authorized practical work from setup to conclusion. They show the method, observations, evidence, defensive lesson, and cleanup without presenting an unverified result as a professional finding.
+
+## Published walkthrough
+
+- [Reflected XSS penetration-test walkthrough and report](../pentesting/reports/dvwa-reflected-xss-penetration-test.md) - a complete practical example with a sanitized PDF deliverable.
 
 Recommended structure:
 
