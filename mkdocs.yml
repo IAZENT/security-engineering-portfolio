@@ -53,7 +53,7 @@ nav:
   - Home: index.md
   - Penetration Testing:
       - Overview: pentesting/index.md
-      - Pentest Finding: pentesting/finding-template.md
+      - Pentest Finding Template: pentesting/finding-template.md
       - Security Assessment Reports: pentesting/reports/index.md
       - Reflected XSS Penetration Test: pentesting/reports/dvwa-reflected-xss-penetration-test.md
   - Walkthroughs: walkthroughs/index.md
