@@ -50,10 +50,10 @@ A practical penetration-test walkthrough and sanitized report from an intentiona
 
 <div class="portfolio-links" markdown>
 
-<div><strong>Penetration testing</strong><span>Reports, findings, evidence handling, remediation, and retesting.</span><a href="pentesting/index.md">View section →</a></div>
-<div><strong>Walkthroughs</strong><span>Practical lab work from setup and testing through interpretation and cleanup.</span><a href="walkthroughs/index.md">View section →</a></div>
-<div><strong>Research</strong><span>Technical notes that separate verified facts, interpretation, sources, and open questions.</span><a href="research/index.md">View section →</a></div>
-<div><strong>Projects</strong><span>Security tooling, home labs, automation, and secure infrastructure work.</span><a href="projects/index.md">View section →</a></div>
+<div><strong>Penetration testing</strong><span>Reports, findings, evidence handling, remediation, and retesting.</span><a href="pentesting/">View section →</a></div>
+<div><strong>Walkthroughs</strong><span>Practical lab work from setup and testing through interpretation and cleanup.</span><a href="walkthroughs/">View section →</a></div>
+<div><strong>Research</strong><span>Technical notes that separate verified facts, interpretation, sources, and open questions.</span><a href="research/">View section →</a></div>
+<div><strong>Projects</strong><span>Security tooling, home labs, automation, and secure infrastructure work.</span><a href="projects/">View section →</a></div>
 
 </div>
 
