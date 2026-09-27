@@ -1,6 +1,8 @@
 site_name: Security Documentation
 site_description: Sanitized cybersecurity labs, research and project documentation
-site_url: https://example.invalid
+site_url: https://iazent.github.io/security-engineering-portfolio/
+repo_url: https://github.com/IAZENT/security-engineering-portfolio
+repo_name: IAZENT/security-engineering-portfolio
 docs_dir: docs
 
 theme:
