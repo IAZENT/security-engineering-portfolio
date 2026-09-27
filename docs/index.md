@@ -1,6 +1,6 @@
 <div class="portfolio-hero" markdown>
 
-<p class="portfolio-kicker">RUPESH K THAKUR · SECURITY ENGINEERING</p>
+<p class="portfolio-kicker">RUPESH K THAKUR</p>
 
 # Practical security work, documented clearly
 
@@ -8,8 +8,11 @@ Cybersecurity student focused on penetration testing, web application security, 
 
 <div class="portfolio-actions" markdown>
 
-[View pentest reports](pentesting/reports/index.md){ .md-button .md-button--primary }
-[Open GitHub](https://github.com/IAZENT/security-engineering-portfolio){ .md-button }
+[Portfolio](https://rupeshkthakur.com.np/){ .md-button .md-button--primary }
+[LinkedIn](https://www.linkedin.com/in/rupesh-thakur-aa98702a7/){ .md-button }
+[TryHackMe](https://tryhackme.com/p/Cosmic777){ .md-button }
+[Hack The Box](https://app.hackthebox.com/users/1936521){ .md-button }
+[GitHub](https://github.com/IAZENT/security-engineering-portfolio){ .md-button }
 
 </div>
 
