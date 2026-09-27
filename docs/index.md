@@ -2,92 +2,140 @@
 
 <div class="portfolio-hero__copy" markdown>
 
-<p class="portfolio-kicker">SECURITY ENGINEERING PORTFOLIO</p>
+<p class="portfolio-kicker">RUPESH K THAKUR · SECURITY ENGINEERING</p>
 
-# Practical security work, documented properly
+# Building security capability through practice
 
-Evidence-led penetration testing, controlled lab research, and technical writing built around reproducible methods, clear risk communication, and responsible disclosure.
+Cybersecurity student focused on web application security, penetration testing, Linux and networks, and the engineering discipline behind trustworthy security work.
 
 <div class="portfolio-actions" markdown>
 
-[View security assessments](pentesting/reports/index.md){ .md-button .md-button--primary }
-[Explore the methodology](pentesting/index.md){ .md-button }
+[View case studies](pentesting/reports/index.md){ .md-button .md-button--primary }
+[View GitHub repository](https://github.com/IAZENT/security-engineering-portfolio){ .md-button }
 
 </div>
 
 <div class="portfolio-meta" markdown>
 
-<span>Authorized lab work</span>
-<span>Sanitized public evidence</span>
-<span>OWASP-informed reporting</span>
+<span>Authorized lab environments</span>
+<span>Evidence-led reporting</span>
+<span>Building toward cloud security engineering</span>
 
 </div>
 
 </div>
 
-<div class="portfolio-hero__visual" markdown>
+<div class="portfolio-hero__summary" markdown>
 
-![DVWA security lab portfolio cover](assets/portfolio-cover.png)
+<p class="summary-label">CURRENT DIRECTION</p>
+
+<p class="summary-heading">Offensive security foundations → secure systems</p>
+
+I turn hands-on testing into clear findings, remediation guidance, and repeatable documentation. The aim is practical security work that another engineer can inspect, reproduce, and improve.
+
+<div class="summary-row" markdown>
+<span>Focus</span><strong>Web and application security</strong>
+</div>
+<div class="summary-row" markdown>
+<span>Evidence</span><strong>One verified public case study</strong>
+</div>
+<div class="summary-row" markdown>
+<span>Next</span><strong>Broader lab coverage and secure engineering</strong>
+</div>
+
+</div>
+
+</div>
+
+<div class="portfolio-stats" markdown>
+
+<div><strong>01</strong><span>published case study</span></div>
+<div><strong>01</strong><span>verified finding documented</span></div>
+<div><strong>04</strong><span>report phases: evidence → retest</span></div>
+<div><strong>100%</strong><span>authorized lab scope</span></div>
+
+</div>
+
+## Featured case study
+
+<div class="featured-work" markdown>
+
+<div class="featured-work__copy" markdown>
+
+<p class="portfolio-kicker">WEB APPLICATION SECURITY · F-001</p>
+
+### Reflected cross-site scripting
+
+An end-to-end case study from an intentionally vulnerable lab application. It documents scope, methodology, browser evidence, impact, root cause, remediation, retest criteria, and publication limitations.
+
+<div class="work-tags" markdown>
+<span>OWASP A03:2021</span><span>CWE-79</span><span>Sanitized PDF</span>
+</div>
+
+[Read the case study](pentesting/reports/dvwa-reflected-xss-case-study.md){ .md-button .md-button--primary }
+[Download the PDF](pentesting/reports/DVWA-Reflected-XSS-Case-Study.pdf){ .md-button }
+
+</div>
+
+<div class="featured-work__visual" markdown>
+
+![DVWA web application security lab](assets/portfolio-cover.png)
 
 </div>
 
 </div>
 
-## Featured publication
+## What the work demonstrates
 
 <div class="grid cards" markdown>
 
-- **Reflected XSS case study**
+- **Security reasoning**
 
-    A complete, sanitized assessment of one verified reflected cross-site scripting issue, including scope, evidence, impact, remediation, retest criteria, and references.
+  Separate observed behavior from impact assumptions, state limitations, and avoid overstating what was tested.
 
-    [Read the report](pentesting/reports/dvwa-reflected-xss-case-study.md) · [Download PDF](pentesting/reports/DVWA-Reflected-XSS-Case-Study.pdf)
+- **Professional reporting**
 
-- **Publication standard**
+  Turn raw testing into a readable finding with evidence, severity context, remediation, and retest criteria.
 
-    Each public entry states what was tested, what was excluded, how the result was verified, and what limitations apply. Private evidence and sensitive details stay outside the public repository.
+- **Engineering habits**
 
-    [See the reporting workflow](pentesting/index.md)
+  Keep sensitive evidence outside the public repository, use version control, validate builds, and publish reproducible work.
 
 </div>
 
-## What this portfolio covers
+## Explore the portfolio
 
 <div class="grid cards" markdown>
 
 - **Penetration testing**
 
-    Structured findings with reproducibility, severity context, evidence, impact analysis, remediation, and retesting.
+  Assessment workflow, finding template, and published security reports.
 
-    [Open penetration testing](pentesting/index.md)
+  [Open penetration testing](pentesting/index.md)
 
 - **Walkthroughs**
 
-    Practical lab work and technical walkthroughs written so another practitioner can understand the method and constraints.
+  Practical lab work and technical walkthroughs with explicit scope and constraints.
 
-    [Browse walkthroughs](walkthroughs/index.md)
+  [Browse walkthroughs](walkthroughs/index.md)
 
 - **Security research**
 
-    Focused technical research with source attribution, assumptions, limitations, and a clear distinction between observation and inference.
+  Source-backed technical notes with assumptions, limitations, and conclusions.
 
-    [Browse research](research/index.md)
+  [Browse research](research/index.md)
 
 - **Engineering projects**
 
-    Security-focused projects, implementation notes, and lessons learned from building and testing practical systems.
+  Security-focused builds, implementation notes, and lessons learned.
 
-    [Browse projects](projects/index.md)
+  [Browse projects](projects/index.md)
 
 </div>
 
-## How to read the work
+## Publication standard
 
-1. Start with the scope and authorization statement.
-2. Check the evidence and reproduction summary.
-3. Separate verified behavior from impact assumptions.
-4. Review remediation and retest criteria.
-5. Use the stated limitations to understand what the work does not claim.
+Every public entry answers five questions: what was authorized, what was tested, what was observed, why it matters, and how it can be fixed. Credentials, tokens, private client information, internal hostnames, and unredacted logs remain outside the public repository.
 
 !!! note "Responsible publication"
-    This portfolio documents authorized labs and systems owned or explicitly approved for testing. Public reports exclude credentials, tokens, private client information, internal hostnames, and unredacted logs.
+    This portfolio documents authorized labs and systems owned or explicitly approved for testing. A case study is not a claim that an entire application or every module has been assessed.
