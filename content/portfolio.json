@@ -1,0 +1,15 @@
+{
+  "reports": [
+    {
+      "title": "Reflected XSS Penetration Test",
+      "slug": "dvwa-reflected-xss-penetration-test",
+      "date": "2026-09-27",
+      "summary": "A practical penetration-test walkthrough and sanitized report documenting scope, browser evidence, impact, remediation, and retest criteria.",
+      "pdf": "DVWA-Reflected-XSS-Penetration-Test-Report.pdf",
+      "tags": ["OWASP A03:2021", "CWE-79", "PDF report"],
+      "channels": ["pentesting"],
+      "status": "published",
+      "featured": true
+    }
+  ]
+}

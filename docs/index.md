@@ -17,21 +17,21 @@ Cybersecurity student focused on penetration testing, web application security, 
 
 </div>
 
-## Featured practical report
+<!-- GENERATED_REPORTS_START -->
+
+## Latest published report
 
 <div class="featured-work" markdown>
 
 <div class="featured-work__copy" markdown>
 
-<p class="portfolio-kicker">WEB APPLICATION PENETRATION TEST · F-001</p>
+<p class="portfolio-kicker">REFLECTED XSS PENETRATION TEST · 2026-09-27</p>
 
-### Reflected cross-site scripting
+### Reflected XSS Penetration Test
 
-A practical penetration-test walkthrough and sanitized report from an intentionally vulnerable lab application. It documents the test scope, observed behavior, browser evidence, impact, remediation, and retest criteria.
+A practical penetration-test walkthrough and sanitized report documenting scope, browser evidence, impact, remediation, and retest criteria.
 
-<div class="work-tags" markdown>
-<span>OWASP A03:2021</span><span>CWE-79</span><span>PDF report</span>
-</div>
+<div class="work-tags" markdown><span>OWASP A03:2021</span><span>CWE-79</span><span>PDF report</span></div>
 
 [Read the walkthrough/report](pentesting/reports/dvwa-reflected-xss-penetration-test.md){ .md-button .md-button--primary }
 [Download PDF](pentesting/reports/DVWA-Reflected-XSS-Penetration-Test-Report.pdf){ .md-button }
@@ -45,6 +45,13 @@ A practical penetration-test walkthrough and sanitized report from an intentiona
 </div>
 
 </div>
+
+## Top published reports
+
+- **Reflected XSS Penetration Test** (2026-09-27) - A practical penetration-test walkthrough and sanitized report documenting scope, browser evidence, impact, remediation, and retest criteria.  
+  OWASP A03:2021 · CWE-79 · PDF report · [Read report](pentesting/reports/dvwa-reflected-xss-penetration-test.md) · [PDF](pentesting/reports/DVWA-Reflected-XSS-Penetration-Test-Report.pdf)
+
+<!-- GENERATED_REPORTS_END -->
 
 ## Portfolio
 

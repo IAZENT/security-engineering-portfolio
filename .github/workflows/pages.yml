@@ -32,6 +32,9 @@ jobs:
       - name: Install documentation dependencies
         run: pip install -r requirements.txt
 
+      - name: Generate published portfolio indexes
+        run: python scripts/build_portfolio_indexes.py
+
       - name: Build documentation
         run: mkdocs build --strict
 
@@ -43,4 +46,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-

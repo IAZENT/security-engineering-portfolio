@@ -4,7 +4,7 @@
   "scripts": {
     "lint:md": "markdownlint-cli2 \"docs/**/*.md\" \"README.md\"",
     "build": ".venv/bin/mkdocs build --strict",
-    "preview": "./scripts/preview.sh"
+    "preview": "python3 scripts/build_portfolio_indexes.py && ./scripts/preview.sh"
   },
   "devDependencies": {
     "markdownlint-cli2": "^0.23.3"

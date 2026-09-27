@@ -1,5 +1,5 @@
 site_name: Rupesh K Thakur | Security Engineering
-site_description: Practical cybersecurity case studies, security research, and evidence-led engineering documentation
+site_description: Practical penetration-test walkthroughs, security research, and evidence-led engineering documentation
 site_url: https://iazent.github.io/security-engineering-portfolio/
 repo_url: https://github.com/IAZENT/security-engineering-portfolio
 repo_name: IAZENT/security-engineering-portfolio
@@ -51,11 +51,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Penetration Testing:
-      - Overview: pentesting/index.md
-      - Pentest Finding Template: pentesting/finding-template.md
-      - Security Assessment Reports: pentesting/reports/index.md
-      - Reflected XSS Penetration Test: pentesting/reports/dvwa-reflected-xss-penetration-test.md
+  - Penetration Testing: pentesting/index.md
   - Walkthroughs: walkthroughs/index.md
   - Research: research/index.md
   - Projects: projects/index.md

@@ -1,18 +1,7 @@
 # Security Research
 
-Technical research should separate verified facts, interpretation, and open questions. Each note should make its sources and limitations visible to the reader.
+Technical research that separates verified facts, interpretation, sources, and open questions.
 
-## Research standard
+## No published work yet
 
-Recommended structure:
-
-- Abstract and research question
-- Research question
-- Scope and assumptions
-- Methodology
-- Sources
-- Findings
-- Reproduction or validation
-- Limitations
-- Defensive implications
-- Future work
+This section is ready for its first publication. New entries will appear here automatically when they are added to the portfolio catalog and pass the publication checks.
