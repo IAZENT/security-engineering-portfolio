@@ -1,0 +1,18 @@
+# Private evidence and working material
+private/raw-evidence/
+private/attachments/
+private/engagements/
+private/research/
+
+# Local tooling
+.venv/
+site/
+__pycache__/
+.DS_Store
+
+# Secrets and environment files
+.env
+*.pem
+*.key
+*.p12
+*.kdbx

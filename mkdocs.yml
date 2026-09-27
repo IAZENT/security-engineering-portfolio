@@ -1,0 +1,50 @@
+site_name: Security Documentation
+site_description: Sanitized cybersecurity labs, research and project documentation
+site_url: https://example.invalid
+docs_dir: docs
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Penetration Testing:
+      - Overview: pentesting/index.md
+      - Pentest Finding: pentesting/finding-template.md
+  - Walkthroughs: walkthroughs/index.md
+  - Research: research/index.md
+  - Projects: projects/index.md
